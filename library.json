@@ -1,0 +1,19 @@
+{
+  "title": "React JS",
+  "contentType": "library",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "machineName": "ReactJS",
+  "author": "Joubel AS",
+  "license": "MIT",
+  "preloadedJs": [
+    {
+      "path": "react.js"
+    },
+    {
+      "path": "react-dom.js"
+    }
+  ]
+}
