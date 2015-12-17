@@ -10,10 +10,10 @@ Utility library for using ReactJS.
 Preload as a dependency in your library.json:
 
 ```json
-preloadedDependencies: [{
-    'machineName': 'ReactJS',
-    'majorVersion': 1,
-    'minorVersion': 0
+"preloadedDependencies": [{
+    "machineName": "ReactJS",
+    "majorVersion": 1,
+    "minorVersion": 0
 }]
 ```
 
