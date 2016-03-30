@@ -1,7 +1,7 @@
-React JS
+H5P React
 ==========
 
-Utility library for using ReactJS.
+Provides H5P with React and ReactDOM.
 
 [Learn how to use React in your own project](https://facebook.github.io/react/docs/getting-started.html).
 
@@ -13,8 +13,8 @@ Preload as a dependency in your library.json:
 "preloadedDependencies": [
   {
     "machineName": "ReactJS",
-    "majorVersion": 1,
-    "minorVersion": 0
+    "majorVersion": 0,
+    "minorVersion": 14
   }
 ]
 ```
@@ -26,13 +26,13 @@ Be sure to use the proper majorVersion and minorVersion found in this library.js
 You can find several examples [on their website](https://facebook.github.io/react/). Here is the first one to get you started:
 
 ```js
-var HelloMessage = React.createClass({
+var HelloMessage = H5P.React.createClass({
   render: function() {
     return <div>Hello {this.props.name}</div>;
   }
 });
 
-ReactDOM.render(
+H5P.ReactDOM.render(
   <HelloMessage name="John" />,
   document.getElementById('container')
 );
@@ -42,7 +42,7 @@ This example will render "Hello John" into a container on the page.
 
 ## License
 
-BSD License
+(Modified BSD License)
 
 For React software
 
