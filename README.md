@@ -12,7 +12,7 @@ Preload as a dependency in your library.json:
 ```json
 "preloadedDependencies": [
   {
-    "machineName": "ReactJS",
+    "machineName": "H5P.React",
     "majorVersion": 0,
     "minorVersion": 14
   }
